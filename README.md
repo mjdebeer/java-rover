@@ -18,22 +18,34 @@ Usage:
 
 The app takes a .txt file with movement instructions. 
 
-The first line of instructions should be the expected grid size (x axis, y axis) for example 10 10;
+The first line of instructions should be the expected grid size (x axis, y axis) for example 10 10.
+
 The next two lines are to program the starting point and movements of the rover. Each consecutive set of 2 lines will spawn and move an additional rover. 
+
 Example:
+
 1 2 N
+
 MMRMMLMLMMRRRM
+
 3 5 S
+
 RMMM
 
 So a file to move 3 rovers on a 5 x 5 grid would look like this:
 
 5 5
+
 1 2 N
+
 LMLMLMLMM
+
 3 3 E
+
 MMRMMRMRRM
+
 1 1 N
+
 RMMMLLMMMMLMMRRM
 
 Enjoy!
