@@ -18,7 +18,7 @@ To run the application you can:
     
 Usage:
 
-The app takes a .txt file with movement instructions. 
+The app takes a .txt file with movement instructions. You will be prompted to enter a file path to your text file into the terminal window.
 
 The first line of instructions should be the expected grid size (x axis, y axis).
 
