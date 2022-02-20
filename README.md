@@ -6,11 +6,15 @@ Welcome to my rover app!
 To run the application you can:
 
   Download the executable jar file at java-rover/target/ (It's called mars-rover-1.0-SNAPSHOT.jar)
-  Run it from command line with :: java -jar mars-rover-1.0-SNAPSHOT.jar
+  
+  Run it from command line with ::
+  
+    java -jar mars-rover-1.0-SNAPSHOT.jar
   
   OR
   
   You can clone the repository to your machine and run:
+  
     mvn clean install
     mvn exec:java
     
@@ -24,28 +28,21 @@ The next two lines are to program the starting point and movements of the rover.
 
 Example:
 
-1 2 N
+    1 2 N
+    MMRMMLMLMMRRRM
+    3 5 S
+    RMMM
 
-MMRMMLMLMMRRRM
 
-3 5 S
-
-RMMM
 
 So a file to move 3 rovers on a 5 x 5 grid would look like this:
 
-5 5
-
-1 2 N
-
-LMLMLMLMM
-
-3 3 E
-
-MMRMMRMRRM
-
-1 1 N
-
-RMMMLLMMMMLMMRRM
+    5 5
+    1 2 N
+    MMRMMLMLMMRRRM
+    3 5 S
+    RMMM
+    1 1 N 
+    RMMMLLMMMMLMMRRM
 
 Enjoy!
