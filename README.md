@@ -23,6 +23,7 @@ Usage:
 The app takes a .txt file with movement instructions. 
 
 The first line of instructions should be the expected grid size (x axis, y axis).
+
 Example:
 
     10 10
