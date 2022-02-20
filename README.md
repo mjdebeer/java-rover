@@ -5,7 +5,7 @@ Welcome to my rover app!
 
 To run the application you can:
 
-  Download the executable jar file at java-rover/target/ (It's called mars-rover-1.0-SNAPSHOT.jar) and run it from command line with:
+  Download the executable jar file from this repository at java-rover/target/ (It's called mars-rover-1.0-SNAPSHOT.jar) and run it from command line with:
   
     java -jar mars-rover-1.0-SNAPSHOT.jar
   
